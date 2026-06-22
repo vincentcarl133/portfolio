@@ -4,407 +4,620 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carl Yoshino | Portfolio</title>
 
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 
-    <!-- =====BOX ICONS===== -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
 
-    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        a {
-            text-decoration: none;
-        }
-    </style>
-
-    <title>Portfolio</title>
-    <link rel="icon" type="image/png" href="assets/img/icon.png">
-
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
 </head>
 
 <body>
-    <!--===== HEADER =====-->
-    <header class="l-header">
-        <nav class="nav bd-grid">
-            <div style ="display: flex;  align-items: center;">
-                <div class="newtons-cradle">
-                    <div class="newtons-cradle__dot"></div>
-                    <div class="newtons-cradle__dot"></div>
-                    <div class="newtons-cradle__dot"></div>
-                    <div class="newtons-cradle__dot"></div>
-                    </div>
-                <a href="#" class="nav__logo">Vincent Carl Yoshino</a>
-            </div>
 
-            <div class="nav__menu" id="nav-menu">
-                <ul class="nav__list">
-                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
-                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                    <li class="nav__item"><a href="#experience" class="nav__link">Experience</a></li>
-                    <li class="nav__item"><a href="#project" class="nav__link">Project</a></li>
-                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
-                </ul>
-            </div>
+    <div class="container">
 
-            <div class="nav__toggle" id="nav-toggle">
-                <i class='bx bx-menu'></i>
-            </div>
-        </nav>
-    </header>
+        <section class="hero">
 
-    <main class="l-main">
-        <!--===== HOME =====-->
-        <section class="home bd-grid " id="home">
-            <div class="home__data">
-                
-                <h1 class="home__title"><br>I am <span class="home__title-color">Carl</span><br> Web Developer</h1>
+            <div class="hero-content">
 
-                <a href="assets/img/resume.pdf" target="_blank" class="button">Resume</a>
-            </div>
+                <div class="hero-text">
 
-            <div class="home__social">
-                <a href="https://www.facebook.com/vcdyoshino" target="_blank" class="home__social-icon"><i
-                        class='bx bxl-facebook-square' title="Facebook"></i></a>
-                <a href="mailto:yoshinocarl@gmail.com" target="_blank" class="home__social-icon"><i
-                        class='bx bx-mail-send' title="Gmail"></i></a>
-                <a href="https://github.com/vincentcarl133" target="_blank" class="home__social-icon"><i
-                        class='bx bxl-github' title="Github"></i></a>
-            </div>
+                    <span class="badge">
+                        FULL STACK DEVELOPER
+                    </span>
 
-            <div class="home__img">
-                <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink">
-                    <image class="home__blob-img" x="50" y="60" href="assets/img/perfil.png" />
-                </svg>
-            </div>
-        </section>
+                    <h1>
+                        Vincent Carl Yoshino
+                    </h1>
 
-        <!--===== ABOUT =====-->
-        <section class="about section " id="about">
-            <h2 class="section-title">About</h2>
+                    <p>
+                        Full Stack Web Developer with experience developing and maintaining web applications, system
+                        integrations, and workflow automation solutions. Experienced in building applications that
+                        support operational processes, data management, and service delivery across different business
+                        environments.
 
-            <div class="about__container bd-grid">
-                <div class="about__img">
-                    <img src="assets/img/about.jpg" alt="">
-                </div>
-                <div class="container_text">
-                    <p class="about__text">
-                        As a dedicated programmer, I actively seek dynamic roles to leverage my extensive knowledge and skills. With a passion for embracing new technologies and implementing best practices in problem-solving, I am committed to delivering high-quality code that drives project success. I continuously enhance my skills through rigorous learning. My goal is to contribute effectively to innovative projects that push boundaries and set new standards in Web development.
+                        Committed to developing reliable, maintainable, and efficient software with a strong focus on
+                        usability, performance, and long-term sustainability.
+
                     </p>
+
+                    <div class="hero-buttons">
+
+                        <a href="assets/img/resumexp.pdf" target="_blank">
+                            Resume
+                        </a>
+
+                        <a href="https://github.com/vincentcarl133" target="_blank">
+                            GitHub
+                        </a>
+
+                        <a href="mailto:yoshinocarl@gmail.com">
+                            Contact
+                        </a>
+
+                    </div>
+
                 </div>
-                
-                
+
+                <div class="hero-image">
+
+                    <img src="assets/img/typing.gif" alt="Side">
+
+                </div>
+
             </div>
+
         </section>
 
-        <!--===== SKILLS =====-->
-        <section class="skills section" id="skills">
-            <h2 class="section-title">Skills</h2>
+        <section class="stats">
 
-            <div class="skills__container bd-grid">
-                <div>
-                    <h2 class="skills__subtitle">Professional Skills</h2>
-                    <div class="skills__data">
-                        <div class="skills__names">
-                            <i class='bx bxl-html5 skills__htmlcss'></i>
-                            <i class='bx bxl-css3 skills__htmlcss'></i>
-                            <span class="skills__name">HTML/CSS</span>
-                        </div>
-                        <div class="skills__bar skills__html">
-
-                        </div>
-                        <div>
-                            <span class="skills__percentage">80%</span>
-                        </div>
-                    </div>
-                    <div class="skills__data">
-                        <div class="skills__names">
-                            <i class='bx bxl-javascript skills__icon'></i>
-                            <span class="skills__name">JAVASCRIPT</span>
-                        </div>
-                        <div class="skills__bar skills__js">
-
-                        </div>
-                        <div>
-                            <span class="skills__percentage">70%</span>
-                        </div>
-                    </div>
-                    <div class="skills__data">
-                        <div class="skills__names">
-                            <i class="bx bx-code-alt skills__icon"></i>
-                            <span class="skills__name">PHP</span>
-                        </div>
-                        <div class="skills__bar skills__php">
-
-                        </div>
-                        <div>
-                            <span class="skills__percentage">75%</span>
-                        </div>
-                    </div>
-                    <div class="skills__data">
-                        <div class="skills__names">
-                            <i class='bx bxl-jquery skills__icon'></i>
-                            <span class="skills__name">Jquery</span>
-                        </div>
-                        <div class="skills__bar skills__jquery">
-
-                        </div>
-                        <div>
-                            <span class="skills__percentage">70%</span>
-                        </div>
-                    </div>
-                    <div class="skills__data">
-                        <div class="skills__names">
-                            <i class='bx bxl-dropbox skills__icon'></i>
-                            <span class="skills__name">Laravel</span>
-                        </div>
-                        <div class="skills__bar skills__laravel">
-
-                        </div>
-                        <div>
-                            <span class="skills__percentage">50%</span>
-                        </div>
-                    </div>
-                    <div class="skills__data">
-                        <div class="skills__names">
-                            <i class='bx bxs-data skills__icon'></i>
-                            <span class="skills__name">Mysql</span>
-                        </div>
-                        <div class="skills__bar skills__dbase">
-
-                        </div>
-                        <div>
-                            <span class="skills__percentage">85%</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div>
-                    <img src="assets/img/work3.jpg" alt="" class="skills__img">
-                </div>
+            <div class="stat-card">
+                <h2>3+</h2>
+                <span>Years Experience</span>
             </div>
+
+            <div class="stat-card">
+                <h2>7+</h2>
+                <span>Business Applications</span>
+            </div>
+
+            <div class="stat-card">
+                <h2>20+</h2>
+                <span>Modules Delivered</span>
+            </div>
+
+            <div class="stat-card">
+                <h2>100%</h2>
+                <span>Remote Ready</span>
+            </div>
+
         </section>
-        <!--===== Experience =====-->
-        <section class="experience section " id="experience">
 
-            <h2 class="section-title">Professional Experience</h2>
-            <div class="experience__container bd-grid">
-                <ul>
-                    <li>
-                        <p class="experience_text">Designed and Developed Loan Management System a secure document
-                            repository feature, enabling employees to upload
-                            and manage client documents seamlessly, resulting in a more organized and transparent loan
-                            application process.</p>
-                        <div class="experience_icons" style="display: flex; justify-content: flex-end;">
-                            <i class="bx bxl-html5 skills__icon" title="HTML"></i>
-                            <i class="bx bxl-javascript skills__icon" title="JavaScript"></i>
-                            <i class="bx bxl-css3 skills__icon" title="CSS"></i>
-                            <i class='bx bxl-jquery skills__icon' title="Jquery"></i>
-                            <i class="bx bx-code-alt skills__icon" title="PHP"></i>
-                            <i class='bx bxs-data skills__icon' title="Mysql"></i>
-                        </div>
-                    </li>
-                    <li>
-                        <p class="experience_text">Developed an email notification feature to alert the next person in
-                            the loan processing workflow whenever a file is uploaded,
-                            thereby streamlining communication and enhancing.</p>
-                        <div class="experience_icons" style="display: flex; justify-content: flex-end;">
-                            <i class="bx bxl-html5 skills__icon" title="HTML"></i>
-                            <i class="bx bxl-javascript skills__icon" title="JavaScript"></i>
-                            <i class="bx bx-code-alt skills__icon" title="PHP"></i>
-                            <i class='bx bxs-data skills__icon' title="Mysql"></i>
-                        </div>
-                    </li>
-                    <li>
-                        <p class="experience_text">Developed Automated email system, significantly optimizing loan
-                            processing by promptly alerting employees via email when
-                            clients were missing required documents, thus expediting resolution and ensuring a smooth
-                            application workflow.</p>
-                        <div class="experience_icons" style="display: flex; justify-content: flex-end;">
-                            <i class="bx bxl-html5 skills__icon" title="HTML"></i>
-                            <i class="bx bxl-javascript skills__icon" title="JavaScript"></i>
-                            <i class="bx bx-code-alt skills__icon" title="PHP"></i>
-                            <i class='bx bxs-data skills__icon' title="Mysql"></i>
-                        </div>
+        <section>
 
-                    </li>
-                    <li>
-                        <p class="experience_text">Implemented FTP requests to enable automatic data transfer to another
-                            web server storage, facilitating external client
-                            access to the data without directly interfacing with the Loan Management System.
-                            Additionally, configured the system to
-                            initiate FTP requests every time a file is uploaded in the Loan Management System, ensuring
-                            seamless synchronization of
-                            data between servers.</p>
-                        <div class="experience_icons" style="display: flex; justify-content: flex-end;">
-                            <i class="bx bxl-html5 skills__icon" title="HTML"></i>
-                            <i class="bx bxl-javascript skills__icon" title="JavaScript"></i>
-                            <i class="bx bx-code-alt skills__icon" title="PHP"></i>
-                            <i class='bx bxs-file skills__icon' title="FTP"></i>
-                        </div>
-                    </li>
-                    <li>
-                        <p class="experience_text">Developed the Data Import Manager, a tool specifically tailored for
-                            simplifying data management tasks. This feature
-                            facilitated the effortless import of customer data from Excel files, ensuring consistent
-                            formatting of dates and addresses,
-                            thereby improving data accuracy and efficiency.</p>
-                        <div class="experience_icons" style="display: flex; justify-content: flex-end;">
-                            <i class="bx bxl-html5 skills__icon" title="HTML"></i>
-                            <i class="bx bxl-javascript skills__icon" title="JavaScript"></i>
-                            <i class="bx bxl-css3 skills__icon" title="CSS"></i>
-                            <i class="bx bx-code-alt skills__icon" title="PHP"></i>
-                            <i class='bx bxs-data skills__icon' title="Mysql"></i>
-                        </div>
-                    </li>
-                </ul>
+            <h2 class="section-title">
+                Skills
+            </h2>
+
+            <div class="skill-tabs">
+
+                <button class="skill-btn active" data-skill="backend">
+                    Backend
+                </button>
+
+                <button class="skill-btn" data-skill="frontend">
+                    Frontend
+                </button>
+
+                <button class="skill-btn" data-skill="tools">
+                    Tools & Software
+                </button>
+
             </div>
+
+            <!-- Backend -->
+            <div class="skills-grid skill-content active" id="backend">
+
+                <div class="skill">PHP</div>
+                <div class="skill">CodeIgniter 3</div>
+                <div class="skill">Laravel</div>
+                <div class="skill">REST API</div>
+                <div class="skill">MySQL</div>
+                <div class="skill">MSSQL</div>
+
             </div>
+
+            <!-- Frontend -->
+            <div class="skills-grid skill-content" id="frontend">
+
+                <div class="skill">HTML</div>
+                <div class="skill">CSS</div>
+                <div class="skill">JavaScript</div>
+                <div class="skill">jQuery</div>
+                <div class="skill">Bootstrap</div>
+                <div class="skill">Alpine.js</div>
+                <div class="skill">React</div>
+                <div class="skill">Vue.js</div>
+
+            </div>
+
+            <!-- Tools -->
+            <div class="skills-grid skill-content" id="tools">
+
+                <div class="skill">Git</div>
+                <div class="skill">GitHub</div>
+                <div class="skill">Postman</div>
+                <div class="skill">JMeter</div>
+                <div class="skill">Docker</div>
+                <div class="skill">VS Code</div>
+                <div class="skill">XAMPP</div>
+
+            </div>
+
         </section>
-        <!--===== PERSONAL PROJECT =====-->
-        <section class="project section bd-grid" id="project">
-            <h2 class="section-title">Personal Project</h2>
-            <div class="container mt-5 custom-container">
-                <div class="row row-cols-2 row-cols-md-3 g-5">
-                    <!-- TO DO LIST APP -->
-                    <div class="col">
-                        <div class="card" style="width: 19rem;">
-                            <img class="card-img-top" src="assets/img/todolist.gif"
-                                style="height: 14rem; box-shadow: 0 1px  rgba(0, 0, 0, 0.3);" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">TO DO LIST</h5>
-                                <div class="project-icon" style="display: flex;">
-                                    <i class="bx bxl-html5 project__icon" title="HTML"></i>
-                                    <i class="bx bxl-javascript project__icon" title="JavaScript"></i>
-                                    <i class="bx bxl-css3 project__icon" title="CSS"></i>
-                                </div>
-                                <p class="card-text"></p>
-                                <a href="https://vincentcarl133.github.io/to_do_list/" class="btn btn-secondary"
-                                    target="_blank">Live Demo</a>
-                                <a href="https://github.com/vincentcarl133/to_do_list" class="btn btn-secondary"
-                                    target="_blank">Git Hub</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- WEATHER APP -->
-                    <div class="col">
-                        <div class="card" style="width: 19rem;">
-                            <img class="card-img-top" src="assets/img/weather.jpg" style="height: 14rem;"
-                                alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">WEATHER APP</h5>
-                                <div class="project-icon" style="display: flex;">
-                                    <i class="bx bxl-html5 project__icon" title="HTML"></i>
-                                    <i class="bx bxl-javascript project__icon" title="JavaScript"></i>
-                                    <i class="bx bxl-css3 project__icon" title="CSS"></i>
-                                    <i class="bx bx-cog project__icon" title="API"></i>
-                                </div>
-                                <p class="card-text"></p>
-                                <a href="https://vincentcarl133.github.io/weatherApp/"  target="_blank" class="btn btn-secondary">Live Demo</a>
-                                <a href="https://github.com/vincentcarl133/weatherApp"  target="_blank" class="btn btn-secondary">Git Hub</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Typing Test -->
-                    <div class="col">
-                        <div class="card" style="width: 19rem;">
-                            <img class="card-img-top" src="assets/img/typeTest.gif" style="height: 14rem;"
-                                alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">TYPING TEST</h5>
-                                <div class="project-icon" style="display: flex;">
-                                    <i class="bx bxl-html5 project__icon" title="HTML"></i>
-                                    <i class="bx bxl-javascript project__icon" title="JavaScript"></i>
-                                    <i class="bx bxl-css3 project__icon" title="CSS"></i>
-                                </div>
-                                <p class="card-text"></p>
-                                <a href="https://vincentcarl133.github.io/typingTest/"  target="_blank" class="btn btn-secondary">Live Demo</a>
-                                <a href="https://github.com/vincentcarl133/typingTest"  target="_blank" class="btn btn-secondary">Git Hub</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Inventory -->
-                    <div class="col">
-                        <div class="card" style="width: 19rem;">
-                            <img class="card-img-top" src="assets/img/inventory.gif" style="height: 14rem;"
-                                alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Inventory|Ordering System</h5>
-                                <div class="project-icon" style="display: flex;">
-                                    <i class="bx bxl-html5 project__icon" title="HTML"></i>
-                                    <i class="bx bxl-javascript project__icon" title="JavaScript"></i>
-                                    <i class="bx bxl-css3 project__icon" title="CSS"></i>
-                                    <i class="bx bxl-dropbox project__icon" title="Laravel"></i>
-                                    <i class='bx bxs-data project__icon' title="Mysql"></i>
-                                </div>
-                                <p class="card-text"></p>
-                                <a href="error/404.html"  target="_blank" class="btn btn-secondary">Live Demo</a>
-                                <a href="https://github.com/vincentcarl133/inventory" class="btn btn-secondary"
-                                target="_blank">Git Hub</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card" style="width: 19rem;">
-                            <img class="card-img-top" src="assets/img/work1.jpg" style="height: 14rem;"
-                                alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Soon...</h5>
-                                <div class="project-icon" style="display: flex;">
-                                    <i class="bx bxl-html5 project__icon" title="HTML"></i>
-                                </div>
-                                <p class="card-text"></p>
-                                <a href="#" class="btn btn-secondary">Live Demo</a>
-                                <a href="#" class="btn btn-secondary">Git Hub</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card" style="width: 19rem;">
-                            <img class="card-img-top" src="assets/img/work1.jpg" style="height: 14rem;"
-                                alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Soon...</h5>
-                                <div class="project-icon" style="display: flex;">
-                                    <i class="bx bxl-html5 project__icon" title="HTML"></i>
-                                </div>
-                                <p class="card-text"></p>
-                                <a href="#" class="btn btn-secondary">Live Demo</a>
-                                <a href="#" class="btn btn-secondary">Git Hub</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
+        <section>
+
+            <h2 class="section-title">
+                Projects
+            </h2>
+            <div class="project-tabs">
+
+                <button class="tab-btn active" data-tab="professional">
+                    Professional
+                </button>
+
+                <button class="tab-btn" data-tab="personal">
+                    Personal
+                </button>
+
+                <button class="tab-btn" data-tab="academic">
+                    Academic
+                </button>
+
             </div>
-            <!-- Contact  -->
-            <section class="contact section" id="contact">
-                <h2 class="section-title">Contact</h2>
 
-                <div class="contact__container bd-grid">
-                    <form action="" class="contact__form">
-                        <input type="text" placeholder="Name" class="contact__input">
-                        <input type="mail" placeholder="Email" class="contact__input">
-                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-                        <input type="button" value="SEND" class="contact__button button">
-                    </form>
+            <div class="projects-grid tab-content active" id="professional">
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/img/HMN.png">
+                    </div>
+                    <div class="project-content">
+
+                        <span class="project-role">
+                            Full Stack Developer
+                        </span>
+
+                        <h3>
+                            Hospital Appointment App (Healthway)
+                        </h3>
+
+                        <p>
+                            Developed a WebView-based hospital appointment platform for online consultations,
+                            home services, executive checkups, and patient workflows.
+                            Integrated REST APIs for real-time doctor schedules and service availability.
+                        </p>
+
+                        <div class="project-stack">
+                            <span>PHP</span>
+                            <span>CodeIgniter 3</span>
+                            <span>MySQL</span>
+                            <span>REST API</span>
+                            <span>JavaScript</span>
+                            <span>WebView</span>
+                        </div>
+
+                    </div>
+
                 </div>
-            </section>
-    </main>
 
-    <footer class="footer">
-        <p class="footer__title">Built With:</p>
-        <div class="footer__social">
-            <span class="footer__icon" title="HTML"><i class='bx bxl-html5'></i></span>HTML
-            <span class="footer__icon" title="JAVASCRIPT"><i class='bx bxl-javascript'></i></span>JavaScript
-            <span class="footer__icon" title="CSS"><i class='bx bxl-css3'></i></span>CSS
-        </div>
-    </footer>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/img/icaremed.png">
+                    </div>
+                    <div class="project-content">
+
+                        <span class="project-role">
+                            Full Stack Developer
+                        </span>
+
+                        <h3>
+                            Viber Bot CMS (iCareMed)
+                        </h3>
+
+                        <p>
+                            Built a content management system for managing Viber bot interactions,
+                            dynamic responses, and scheduling rules with holiday restrictions.
+                        </p>
+
+                        <div class="project-stack">
+                            <span>PHP</span>
+                            <span>CodeIgniter 3</span>
+                            <span>MySQL</span>
+                            <span>JavaScript</span>
+                            <span>jQuery</span>
+                            <span>Bootstrap</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/img/ringrob.png">
+                    </div>
+                    <div class="project-content">
+
+                        <span class="project-role">
+                            Full Stack Developer
+                        </span>
+
+                        <h3>
+                            Ring Rob Concierge
+                        </h3>
+
+                        <p>
+                            Developed a Viber-based concierge request management platform with
+                            request tracking, administration tools, and holiday/date restrictions.
+                        </p>
+
+                        <div class="project-stack">
+                            <span>PHP</span>
+                            <span>CodeIgniter 3</span>
+                            <span>MySQL</span>
+                            <span>JavaScript</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/img/image-api.png">
+                    </div>
+                    <div class="project-content">
+
+                        <span class="project-role">
+                            Backend Developer
+                        </span>
+
+                        <h3>
+                            Image Classification REST API
+                        </h3>
+
+                        <p>
+                            Developed an API for image upload, validation, classification,
+                            metadata extraction, and automated categorization workflows.
+                        </p>
+
+                        <div class="project-stack">
+                            <span>PHP</span>
+                            <span>REST API</span>
+                            <span>MySQL</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/img/performance-system.png">
+                    </div>
+                    <div class="project-content">
+
+                        <span class="project-role">
+                            Full Stack Developer
+                        </span>
+
+                        <h3>
+                            Employee Performance System
+                        </h3>
+
+                        <p>
+                            Developed a performance tracking platform for employee evaluations,
+                            task monitoring, supervisor ratings, and centralized reporting.
+                        </p>
+
+                        <div class="project-stack">
+                            <span>PHP</span>
+                            <span>CodeIgniter 3</span>
+                            <span>MySQL</span>
+                            <span>JavaScript</span>
+                            <span>SMTP</span>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/img/loan.png">
+                    </div>
+                    <div class="project-content">
+
+                        <span class="project-role">
+                            Junior Programmer
+                        </span>
+
+                        <h3>
+                            Loan Management System (Our Bank)
+                        </h3>
+
+                        <p>
+                            Developed a system for processing and tracking loan applications.
+                            Automated notifications and scheduled tasks using SMTP and Windows Task Scheduler.
+                        </p>
+
+                        <div class="project-stack">
+                            <span>PHP</span>
+                            <span>MySQL</span>
+                            <span>SMTP</span>
+                            <span>FTP</span>
+                            <span>Task Scheduler</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="projects-grid tab-content" id="personal">
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/img/inventory.gif">
+                    </div>
+
+                    <div class="project-content">
+
+                        <h3>Inventory & Order Management System</h3>
+
+                        <p>
+                            Developed a web-based inventory management platform featuring stock monitoring,
+                            order processing, order approval workflows, shipment tracking, and analytics
+                            dashboards for inventory and sales insights.
+                        </p>
+
+                        <div class="project-stack">
+                            <span>Laravel 11</span>
+                            <span>PHP</span>
+                            <span>MySQL</span>
+                            <span>JavaScript</span>
+                            <span>Bootstrap</span>
+                            <span>ApexCharts</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/vincentcarl133/inventory" target="_blank" class="github-link">
+                                GitHub Repository
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/img/api.gif">
+                    </div>
+
+                    <div class="project-content">
+
+                        <h3>API Monitoring Dashboard</h3>
+
+                        <p>
+                            Developed a web-based API Monitoring Dashboard that tracks endpoint availability,
+                            response times, and status codes through automated health checks. |
+                            Features real-time monitoring, failure logging, performance analytics, scheduled checks, and
+                            centralized reporting to improve system reliability and API performance visibility.
+
+                        </p>
+
+                        <div class="project-stack">
+                            <span>Laravel 13</span>
+                            <span>PHP</span>
+                            <span>MySQL</span>
+                            <span>JavaScript</span>
+                            <span>Task Scheduler</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/vincentcarl133/api-monitoring" target="_blank"
+                                class="github-link">
+                                GitHub Repository
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/img/hospital.gif">
+                    </div>
+
+                    <div class="project-content">
+
+                        <h3>Hospital Management App</h3>
+
+                        <p>
+                            Developed a healthcare appointment management platform that enables patients to search for
+                            doctors, medical services, and clinic locations, while providing online appointment
+                            scheduling and consultation request management. Integrated REST APIs, dynamic scheduling,
+                            and patient information workflows to streamline the healthcare booking process.
 
 
-    <script src="https://unpkg.com/scrollreveal"></script>
+                        </p>
 
-    <script src="assets/js/main.js"></script>
+                        <div class="project-stack">
+                            <span>React Native</span>
+                            <span>Expo</span>
+                            <span>Typescript</span>
+                            <span>Android Studio</span>
+                            <span>Mobile Development</span>
+
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/vincentcarl133/api-monitoring" target="_blank"
+                                class="github-link">
+                                GitHub Repository
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="projects-grid tab-content" id="academic">
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/img/ecommerce.png">
+                    </div>
+                    <div class="project-content">
+
+                        <h3>Barter Marketplace Platform</h3>
+
+                        <p>
+                            Developed a web-based marketplace that allows users to trade items through a flexible
+                            offer-and-accept system. Instead of traditional
+                            cash-only transactions, users can propose item exchanges, which sellers can review and
+                            either accept or reject.
+                            Features include product listings, offer management, user authentication, transaction
+                            monitoring, and marketplace administration tools.
+                        </p>
+                        <div class="project-stack">
+                            <span>Laravel</span>
+                            <span>MySQL</span>
+                            <span>Bootstrap</span>
+                            <span>JavaScript</span>
+                            <span>CSS</span>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/img/game.jpeg">
+                    </div>
+                    <div class="project-content">
+
+                        <h3>3D Network Simulation Game</h3>
+
+                        <p>
+                            Developed a 3D educational simulation game in Unity 3D that teaches networking concepts
+                            through interactive gameplay.
+                            Players complete missions involving routers, modems, network signals, and connectivity
+                            troubleshooting by locating
+                            components and configuring correct network paths. Built using C# with custom mission
+                            systems, player movement mechanics, and immersive 3D environments.
+                        </p>
+                        <div class="project-stack">
+                            <span>Unity 3D</span>
+                            <span>C#</span>
+                            <span>3D Environment Design</span>
+                            <span>Educational Game</span>
+                            <span>Object Interaction</span>
+                            <span>Mission System</span>
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+        </section>
+
+        <section>
+
+            <h2 class="section-title">
+                Contact
+            </h2>
+
+            <div class="contact-grid">
+
+                <div class="contact-card">
+                    <i class="fa-solid fa-phone"></i>
+                    <span>09763088961</span>
+                </div>
+
+                <div class="contact-card">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>yoshinocarl@gmail.com</span>
+                </div>
+
+
+            </div>
+
+        </section>
+
+    </div>
+    <div class="lightbox" id="lightbox">
+        <span class="close">&times;</span>
+        <img id="lightbox-img" src="">
+    </div>
+    <script>
+
+        function initTabs(buttonSelector, contentSelector, dataAttribute) {
+
+            const buttons = document.querySelectorAll(buttonSelector);
+            const contents = document.querySelectorAll(contentSelector);
+
+            buttons.forEach(button => {
+
+                button.addEventListener('click', () => {
+
+                    buttons.forEach(btn => btn.classList.remove('active'));
+                    contents.forEach(content => content.classList.remove('active'));
+
+                    button.classList.add('active');
+
+                    document
+                        .getElementById(button.dataset[dataAttribute])
+                        .classList.add('active');
+
+                });
+
+            });
+
+        }
+
+        initTabs('.tab-btn', '.tab-content', 'tab');
+        initTabs('.skill-btn', '.skill-content', 'skill');
+
+        const lightbox = document.getElementById('lightbox');
+        const lightboxImg = document.getElementById('lightbox-img');
+
+        document.querySelectorAll('.project-card img').forEach(img => {
+
+            img.addEventListener('click', () => {
+
+                lightboxImg.src = img.src;
+                lightbox.classList.add('active');
+
+            });
+
+        });
+
+        lightbox.addEventListener('click', (e) => {
+
+            if (
+                e.target === lightbox ||
+                e.target.classList.contains('close')
+            ) {
+                lightbox.classList.remove('active');
+            }
+
+        });
+    </script>
 </body>
 
 </html>
